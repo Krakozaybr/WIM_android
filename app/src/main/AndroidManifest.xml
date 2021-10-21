@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.krak.myapplicationjava">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Инструмент математика"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplicationJava">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuadraticEquation"
+            android:label="Квадратное уравнение">
+        </activity>
+        <activity android:name=".BankAccount"
+            android:label="Счёт в банке через n лет">
+        </activity>
+        <activity android:name=".Root"
+            android:label="Корень степени n">
+        </activity>
+        <activity android:name=".Combinations"
+            android:label="Число сочетаний из n по k">
+        </activity>
+        <activity android:name=".Square"
+            android:label="Площадь">
+        </activity>
+    </application>
+
+</manifest>
